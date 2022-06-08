@@ -1,3 +1,17 @@
-N=int(input())
-dict={i:i**2 for i in range(1,N+1)}
-print(dict)
+import turtle
+
+def drawSquare():
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+
+turtle.speed(1)
+
+drawSquare()
+turtle.goto(150,150)
+drawSquare()
