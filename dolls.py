@@ -1,14 +1,13 @@
 import turtle
 
-def drawSquare():
+def move():
     turtle.forward(100)
     turtle.left(90)
-    turtle.forward(100)
-    turtle.left(90)
-    turtle.forward(100)
-    turtle.left(90)
-    turtle.forward(100)
-    turtle.left(90)
+
+def drawSquare():move(i)
+
+     for i in range(4):
+        move ()
 
 turtle.speed(1)
 
